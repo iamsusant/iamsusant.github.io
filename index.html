@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>dipesh user frontend</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+    
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/et-line@1.0.1/style.css" rel="stylesheet">
+    <!-- include summernote css/js -->
+    <link rel="stylesheet" href="css/app.min.css">
+
+</head>
+<body >
+
+<div class="uk-offcanvas-content">
+<div class="container-fluid">
+    <header class="header">
+    <!--top nav-->
+    
+        
+            
+                
+                
+            
+            
+                
+                
+                
+                
+            
+            
+        
+    
+
+    <!--inner header-->
+    <div class="header-inner">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-3">
+                    <a href="javascript:void(0)" uk-icon="icon: menu" class="offcanvas-menuicon hidden-lg hidden-md pull-left"
+                       uk-toggle="target: #offcanvas-overlay" style="margin: 15px 0;"></a>
+                    <div class="logo">
+                        <a href="">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-9 hidden-xs hidden-sm">
+                    <!--header menu-->
+                    <div class="mainnav">
+                        <nav class=" text-center " >
+
+                            <div class="uk-navbar-left ">
+                                <ul class="nav--lists hidden-sm hidden-xs">
+                                    <li><a href="">about work</a></li>
+                                    <li><a href="">services</a></li>
+                                    <li><a href="">portfolio</a></li>
+                                    <li><a href="">blog</a></li>
+                                    <li><a href="">insights</a></li>
+                                    <li><a href="">client</a></li>
+                                    <li ><a href="" class="gradient-link">contact us</a></li>
+
+                                </ul>
+
+                            </div>
+                        </nav>
+                    </div>
+                    <!--header menu end-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--inner header end-->
+
+
+    <div id="offcanvas-overlay" uk-offcanvas="overlay:true">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav uk-nav-default">
+                <li class="uk-active"><a href="">home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">service</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+
+        </div>
+    </div>
+</header>
+    <section class="banner" style="background:url('images/banner.png') no-repeat transparent;height:100%">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+               <div class="banner-left">
+                   <h3>we have special offer for you!</h3>
+                   <h4>From now on until the end of the year all user will receive the following  services</h4>
+                   <ul class="services-list liststyle--none">
+                      <li>
+                          <span class="services-list-icon"></span>
+                          <span class="services-list-text">1 year of website maintainance</span>
+                      </li>
+                      <li>
+                          <span class="services-list-icon"></span>
+                          <span class="services-list-text">Dedicated Project Manager</span>
+                      </li>
+                      <li>
+                          <span class="services-list-icon"></span>
+                          <span class="services-list-text">LOGO For your Company</span>
+                      </li>
+                      <li>
+                          <span class="services-list-icon"></span>
+                          <span class="services-list-text">Full Graphic Service</span>
+                      </li>
+                      <li>
+                          <span class="services-list-icon"></span>
+                          <span class="services-list-text">Keyword Analysis</span>
+                      </li>
+                      <li>
+                          <span class="services-list-icon"></span>
+                          <span class="services-list-text">SEO Setup For all Pages</span>
+                      </li>
+                   </ul>
+               </div>
+            </div>
+            <div class="col-md-6">
+                <div class="banner-right consultation-form">
+                    <span class="request-title">request a free consultation</span>
+                    <form>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="text" placeholder="YOUR NAME">
+                        </div>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="email" placeholder="YOUR ADDRESS">
+                        </div>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="number" placeholder="YOUR PHONE NUMBER">
+                        </div>
+                        <div class="uk-margin">
+                            <input class="uk-input" type="email" placeholder="YOUR EMAIL">
+                        </div>
+                        <div class="uk-margin text-center request-btn">
+                            <input class="uk-button" type="submit" value="request for a consultation">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+    <section class="courses-offer specialized-cat blognews pad-50 bg-grey ">
+    <div class="container">
+        <div class="section-heading">
+            
+            <span class="title font-white">we are specialized in</span>
+        </div>
+        <div class="blogs">
+            <div class="band">
+
+
+                <div class="item-1">
+                    <a href="#" class="card">
+                        <div class="thumb">
+                            <span class="icon-tools"></span>
+                        </div>
+                        <article>
+
+                            <div class="single-content">
+                                <div class="service-content-box ">
+                                    <h4 class="uk-card-title">
+                                        Graphic design
+                                    </h4>
+                                    <span class="card-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
+                                        et fugiat itaque nesciunt quas sint velit veritatis!
+                                    </span>
+                                </div>
+
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                <div class="item-1">
+                    <a href="#" class="card">
+                        <div class="thumb">
+                            <span class=" icon-laptop"></span>
+                        </div>
+                        <article>
+
+                            <div class="single-content">
+                                <div class="service-content-box ">
+                                    <h4 class="uk-card-title">
+                                        Website design
+                                    </h4>
+                                    <span class="card-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
+                                        et fugiat itaque nesciunt quas sint velit veritatis!
+                                    </span>
+                                </div>
+
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                <div class="item-1">
+                    <a href="#" class="card">
+                        <div class="thumb">
+                            <span class="icon-printer"></span>
+                        </div>
+                        <article>
+
+                            <div class="single-content">
+
+                                <div class="service-content-box ">
+                                    <h4 class="uk-card-title">
+                                        Printing
+                                    </h4>
+                                    <span class="card-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
+                                        et fugiat itaque nesciunt quas sint velit veritatis!
+                                    </span>
+                                </div>
+
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                <div class="item-1">
+                    <a href="#" class="card">
+                        <div class="thumb">
+                            <span class="icon-search"></span>
+                        </div>
+                        <article>
+
+                            <div class="single-content">
+
+                                <div class="service-content-box ">
+                                    <h4 class="uk-card-title">
+                                        Digital media & Marketing
+                                    </h4>
+                                    <span class="card-content">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
+                                        et fugiat itaque nesciunt quas sint velit veritatis!
+                                    </span>
+                                </div>
+
+                            </div>
+                        </article>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    
+
+
+
+        
+            
+                
+                     
+
+                
+                
+
+                    
+                        
+                        
+                            
+                        
+                        
+                                
+                                
+                            
+                    
+
+                    
+                        
+                        
+                    
+                
+            
+        
+
+    
+
+    <section class="blognews ourproject pad-50">
+    <div class="container">
+        <div class="section-heading">
+            <span class="badge">Work</span><br>
+            <span class="title">Our Work</span>
+        </div>
+        <div class="filters filter-button-group">
+            <ul>
+                <h4>
+                    <li class="active " data-filter="*">All</li>
+                    <li data-filter=".webdesign">Web Design</li>
+                    <li data-filter=".webdev">Web Development</li>
+                    <li data-filter=".brand">Brand Identity</li>
+                </h4>
+            </ul>
+        </div>
+
+        <div class="content grid">
+
+            <div class="single-content webdesign webdev grid-item">
+                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da3c9fb7411cdef9be095e/1507480179577/Portfolio%2BTemplate%2BAMD-13.png">
+            </div>
+
+            <div class="single-content brand webdesign grid-item">
+                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
+            </div>
+
+            <div class="single-content brand grid-item">
+                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da52ba29f187b71a84628e/1507480323521/Portfolio+Template+AMD-06.jpg">
+            </div>
+
+            <div class="single-content webdesign grid-item">
+                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71a4cd0ebbe87857c695de/1534181858373/Portfolio+Template+AMD-11.png">
+            </div>
+
+            <div class="single-content webdesign grid-item">
+                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da3b4bf7e0ab21edcb9aa1/1507480179530/Portfolio+Template+AMD-06.png">
+            </div>
+
+            <div class="single-content webdesign brand grid-item">
+                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da46128419c28f51bc28b1/1534175868854/Portfolio+Template+AMD-04.png">
+            </div>
+
+            <div class="single-content webdesign grid-item">
+                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c1e221c67c0feefe2a10/1534182546003/Portfolio+Template+AMD-03.png">
+            </div>
+
+            <div class="single-content webdesign webdev grid-item">
+                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59d9455546c3c4655adade94/1507480179518/Portfolio+Template+AMD-01.png">
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    
+        
+    
+    
+        
+            
+                
+                
+            
+            
+            
+        
+    
+
+
+    
+        
+            
+        
+    
+    
+    
+
+    
+
+    <section class="clientsay  pad-50" style="background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png');">
+    <div class="container">
+        <div class="section-heading">
+            <span class="badge">TESTMONIALS</span><br>
+            <span class="title">What Our Client Say</span>
+        </div>
+        <div class="clientsay-card">
+            <div class="owl-carousel clientsay-owl">
+                <div class="profile">
+
+                    <div class="comment-section">
+                        <i class="fas fa-quote-left"></i>
+
+                        <span class="comment">
+                            to provide an environment for the disciplined and intergrated development of students and
+                        staff to give their best to the society.
+                        </span>
+                        <figure>
+                            <img src="http://itechway.net/wp-content/uploads/2017/09/geek-boys-whatsapp-dp-1.jpg"
+                                 alt="">
+                        </figure>
+                        <div class="name">susant shrestha</div>
+                        <div class="subname">Web Developer</div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</section>
+
+
+
+    
+
+    <section class="blognews pad-50">
+    <div class="container">
+        <div class="section-heading">
+            <span class="badge">NEWS</span><br>
+            <span class="title">Blog News</span>
+        </div>
+        <div class="blogs">
+            <div class="band">
+                <div class="item-1">
+                    <a href="#" class="card">
+                        <div class="thumb"
+                             style="background-image: url(http://www.freedigitalphotos.net/images/previews/eduction-icon-design-100179549.jpg);">
+
+                        </div>
+                        <article>
+
+                            
+                                
+                            
+                            <h4 class="uk-card-title">
+                                Effective researching method
+                            </h4>
+                            <span class="card-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
+                            et fugiat itaque nesciunt quas sint velit veritatis!
+                        </span>
+                            <button class="uk-button">Read article</button>
+                        </article>
+                    </a>
+                </div><div class="item-1">
+                    <a href="#" class="card">
+                        <div class="thumb"
+                             style="background-image: url(http://www.freedigitalphotos.net/images/previews/eduction-icon-design-100179549.jpg);">
+
+                        </div>
+                        <article>
+
+                            
+                                
+                            
+                            <h4 class="uk-card-title">
+                                Effective researching method
+                            </h4>
+                            <span class="card-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
+                            et fugiat itaque nesciunt quas sint velit veritatis!
+                        </span>
+                            <button class="uk-button">Read article</button>
+                        </article>
+                    </a>
+                </div><div class="item-1">
+                    <a href="#" class="card">
+                        <div class="thumb"
+                             style="background-image: url(http://www.freedigitalphotos.net/images/previews/eduction-icon-design-100179549.jpg);">
+
+                        </div>
+                        <article>
+
+                            
+                                
+                            
+                            <h4 class="uk-card-title">
+                                Effective researching method
+                            </h4>
+                            <span class="card-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
+                            et fugiat itaque nesciunt quas sint velit veritatis!
+                        </span>
+                            <button class="uk-button">Read article</button>
+                        </article>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+    
+    <section class="contactus">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3533.430392401309!2d85.34972601506134!3d27.673089682806285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKoteshwor-35+narephant+Kathmandu%2C+Nepal+44600!5e0!3m2!1sne!2snp!4v1528451030783" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
+
+    </iframe>
+    <div class="contactus-form">
+        <form>
+            <fieldset class="uk-fieldset">
+
+                <span class="title font-white">Contact us</span>
+
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Your name here">
+                </div>
+                <div class="uk-margin">
+                    <input class="uk-input" type="email" placeholder="Email">
+                </div>
+                <div class="uk-margin">
+                    <textarea class="uk-textarea" rows="5" placeholder="Write your message here"></textarea>
+                </div>
+                <button type="submit" class="uk-button ">send message</button>
+
+            </fieldset>
+        </form>
+
+    </div>
+</section>
+    <div class="footer-top courses-offer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 ">
+                <!-- About -->
+                <div class="single-widget useful-links">
+                    <h2>About us</h2>
+                    <p class="about-us-para" >
+                        Eduon company is the one of the finest
+                        and trustable company that helps to promote you and
+                        your company. We stand with you or your company for the long period of time.
+                    </p>
+
+                </div>
+                <!--/ End About -->
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <!-- Useful Links -->
+                <div class="single-widget useful-links">
+                    <h2>Useful Links</h2>
+                    <ul class="liststyle--none">
+                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Home</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;About Us</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Courses</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Events</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Blogs</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Contact</a></li>
+                    </ul>
+                </div>
+                <!--/ End Useful Links -->
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-12">
+                <!-- Newsletter -->
+                <div class="single-widget about">
+                    <h2>Connect</h2>
+                    
+                        
+                            
+                        
+                    
+                    <ul class="list liststyle--none">
+                        <li><i class="fas fa-phone"></i>&nbsp;&nbsp;Tel: 977 01 101010</li>
+                        <li><i class="fas fa-envelope"></i>&nbsp;&nbsp;mail@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Kathmandu,Nepal</li>
+                    </ul>
+                    <!-- Social -->
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                    <!-- End Social -->
+                </div>
+                <!--/ End Newsletter -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="bottom-head">
+                    <div class="row">
+                        <div class="col-12">
+
+                            <!-- Copyright -->
+                            <div class="copyright">
+                                <p>© Copyright 2018 <a href="#">Eduon</a>. All Rights Reserved</p>
+                            </div>
+                            <!--/ End Copyright -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/et-line@1.0.1/lte-ie7.js"></script>
+
+<!-- scroll reveal js-->
+<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://cdn.rawgit.com/digistate/resouces/master/multipleFilterMasonry.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+<script src="js/app.min.js"></script>
+</body>
+</html>
