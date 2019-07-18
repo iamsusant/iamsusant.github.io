@@ -5,21 +5,19 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>dipesh user frontend</title>
+    <title>Susant Shrestha</title>
     <!-- UIkit CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
-    
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplebar/4.1.0/simplebar.min.css">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://unpkg.com/ionicons@4.2.4/dist/css/ionicons.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/et-line@1.0.1/style.css" rel="stylesheet">
-    <!-- include summernote css/js -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/app.min.css">
 
 </head>
@@ -29,620 +27,337 @@
 <div class="container-fluid">
     <header class="header">
     <!--top nav-->
-    
-        
-            
-                
-                
-            
-            
-                
-                
-                
-                
-            
-            
-        
-    
+    <div class="topnav ">
+        <div class="container">
+            <div class="topnav--inner">
+                <ul class="nav-contact liststyle--none">
+                    <li><i class="fas fa-mobile-alt "></i><span>977 9808883404</span></li>
+                    <li><i class="fas fa-envelope"></i><span>susantshrestha@hotmail.com</span></li>
+                </ul>
+                <ul class="nav-social social liststyle--none">
+                    <li><a href="https://www.linkedin.com/in/susantstha49/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.facebook.com/suson.shrestha" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
 
     <!--inner header-->
-    <div class="header-inner">
-        <div class="container">
-            <div class="row">
-                <div class=" col-md-3">
-                    <a href="javascript:void(0)" uk-icon="icon: menu" class="offcanvas-menuicon hidden-lg hidden-md pull-left"
-                       uk-toggle="target: #offcanvas-overlay" style="margin: 15px 0;"></a>
-                    <div class="logo">
-                        <a href="">
-                            <img src="" alt="">
-                        </a>
-                    </div>
+    <div class="container">
+        <div class="header-inner">
+                <div class="">
+                    <a href="index.html" class="logo">
+                        <span>Susant.</span>
+                    </a>
                 </div>
-                <div class="col-md-9 hidden-xs hidden-sm">
-                    <!--header menu-->
-                    <div class="mainnav">
-                        <nav class=" text-center " >
-
-                            <div class="uk-navbar-left ">
-                                <ul class="nav--lists hidden-sm hidden-xs">
-                                    <li><a href="">about work</a></li>
-                                    <li><a href="">services</a></li>
-                                    <li><a href="">portfolio</a></li>
-                                    <li><a href="">blog</a></li>
-                                    <li><a href="">insights</a></li>
-                                    <li><a href="">client</a></li>
-                                    <li ><a href="" class="gradient-link">contact us</a></li>
-
-                                </ul>
-
-                            </div>
-                        </nav>
-                    </div>
-                    <!--header menu end-->
-
+                <!--header menu-->
+                <div class="mainnav">
+                    <nav class=" text-center " >
+                        <div class="uk-navbar-left ">
+                            <ul class="nav--lists hidden-sm hidden-xs">
+                                <li><a href="#home">home</a></li>
+                                <li><a href="#about">about</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#works">Works</a></li>
+                                <li><a href="#contact">contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
-            </div>
+                <!--header menu end-->
         </div>
     </div>
     <!--inner header end-->
 
 
-    <div id="offcanvas-overlay" uk-offcanvas="overlay:true">
-        <div class="uk-offcanvas-bar">
-            <ul class="uk-nav uk-nav-default">
-                <li class="uk-active"><a href="">home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">service</a></li>
-                <li><a href="">blog</a></li>
-                <li><a href="">contact</a></li>
-            </ul>
+    
+        
+            
+                
+                
+                
+                
+                
+            
 
-        </div>
-    </div>
+        
+    
 </header>
-    <section class="banner" style="background:url('images/banner.png') no-repeat transparent;height:100%">
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-               <div class="banner-left">
-                   <h3>we have special offer for you!</h3>
-                   <h4>From now on until the end of the year all user will receive the following  services</h4>
-                   <ul class="services-list liststyle--none">
-                      <li>
-                          <span class="services-list-icon"></span>
-                          <span class="services-list-text">1 year of website maintainance</span>
-                      </li>
-                      <li>
-                          <span class="services-list-icon"></span>
-                          <span class="services-list-text">Dedicated Project Manager</span>
-                      </li>
-                      <li>
-                          <span class="services-list-icon"></span>
-                          <span class="services-list-text">LOGO For your Company</span>
-                      </li>
-                      <li>
-                          <span class="services-list-icon"></span>
-                          <span class="services-list-text">Full Graphic Service</span>
-                      </li>
-                      <li>
-                          <span class="services-list-icon"></span>
-                          <span class="services-list-text">Keyword Analysis</span>
-                      </li>
-                      <li>
-                          <span class="services-list-icon"></span>
-                          <span class="services-list-text">SEO Setup For all Pages</span>
-                      </li>
-                   </ul>
-               </div>
-            </div>
-            <div class="col-md-6">
-                <div class="banner-right consultation-form">
-                    <span class="request-title">request a free consultation</span>
-                    <form>
-                        <div class="uk-margin">
-                            <input class="uk-input" type="text" placeholder="YOUR NAME">
-                        </div>
-                        <div class="uk-margin">
-                            <input class="uk-input" type="email" placeholder="YOUR ADDRESS">
-                        </div>
-                        <div class="uk-margin">
-                            <input class="uk-input" type="number" placeholder="YOUR PHONE NUMBER">
-                        </div>
-                        <div class="uk-margin">
-                            <input class="uk-input" type="email" placeholder="YOUR EMAIL">
-                        </div>
-                        <div class="uk-margin text-center request-btn">
-                            <input class="uk-button" type="submit" value="request for a consultation">
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-    <section class="courses-offer specialized-cat blognews pad-50 bg-grey ">
-    <div class="container">
-        <div class="section-heading">
-            
-            <span class="title font-white">we are specialized in</span>
-        </div>
-        <div class="blogs">
-            <div class="band">
-
-
-                <div class="item-1">
-                    <a href="#" class="card">
-                        <div class="thumb">
-                            <span class="icon-tools"></span>
-                        </div>
-                        <article>
-
-                            <div class="single-content">
-                                <div class="service-content-box ">
-                                    <h4 class="uk-card-title">
-                                        Graphic design
-                                    </h4>
-                                    <span class="card-content">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
-                                        et fugiat itaque nesciunt quas sint velit veritatis!
-                                    </span>
-                                </div>
-
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="item-1">
-                    <a href="#" class="card">
-                        <div class="thumb">
-                            <span class=" icon-laptop"></span>
-                        </div>
-                        <article>
-
-                            <div class="single-content">
-                                <div class="service-content-box ">
-                                    <h4 class="uk-card-title">
-                                        Website design
-                                    </h4>
-                                    <span class="card-content">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
-                                        et fugiat itaque nesciunt quas sint velit veritatis!
-                                    </span>
-                                </div>
-
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="item-1">
-                    <a href="#" class="card">
-                        <div class="thumb">
-                            <span class="icon-printer"></span>
-                        </div>
-                        <article>
-
-                            <div class="single-content">
-
-                                <div class="service-content-box ">
-                                    <h4 class="uk-card-title">
-                                        Printing
-                                    </h4>
-                                    <span class="card-content">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
-                                        et fugiat itaque nesciunt quas sint velit veritatis!
-                                    </span>
-                                </div>
-
-                            </div>
-                        </article>
-                    </a>
-                </div>
-                <div class="item-1">
-                    <a href="#" class="card">
-                        <div class="thumb">
-                            <span class="icon-search"></span>
-                        </div>
-                        <article>
-
-                            <div class="single-content">
-
-                                <div class="service-content-box ">
-                                    <h4 class="uk-card-title">
-                                        Digital media & Marketing
-                                    </h4>
-                                    <span class="card-content">
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
-                                        et fugiat itaque nesciunt quas sint velit veritatis!
-                                    </span>
-                                </div>
-
-                            </div>
-                        </article>
-                    </a>
-                </div>
-
-
-            </div>
-        </div>
-    </div>
-
+    <section class="banner page-section" id="home">
+    <span>
+        Portfolio
+    </span>
+    <div class="scroll-down"></div>
 </section>
 
-
-    
-
-
-
+    <section class="about page-section pad-50" id="about">
         
-            
-                
-                     
-
-                
-                
-
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
                     
-                        
-                        
-                            
-                        
-                        
-                                
-                                
-                            
-                    
+                         
+                    <img src="./images/profile.png" alt="" data-aos="fade-right" data-aos-duration="1500"
+                         class="border-radius-5 box-shadow-primary">
+                </div>
+                <div class="col-md-7">
+                    <div class="about-right" data-aos="fade-left" data-aos-duration="1500">
+                        <h2 class="uk-margin-bottom">
+                            Who am I?
+                        </h2>
+                        <div class="">
+                            <p>I’m Susant Shrestha, Frontend Developer based in Kathmandu,Nepal
+                                that’s passionate about creating intuitive design solutions that enhance users’
+                                experience while meeting their needs in an inspiring way.</p>
 
-                    
+                            <p>My work is driven by a single goal: crafting delightful experiences through a combination
+                                of user-centred research, streamlined workflow processes and open-minded iterative
+                                collaboration.</p>
+
+                            <p>Beyond design, my range of interests include sci-fi and fantasy movies & TV shows,
+                                calligraphy, and continuous learning.</p>
+
+                            <p>Around two years of experience in planning, requirement analysis, design, and developing
+                                a web application.
+                                Experience with design patterns, Object Oriented Systems Design.
+                                Able to work in both team and self-directed environment with quick learning and
+                                mastering new technology.
+                            </p>
+                        </div>
                         
                         
-                    
-                
-            
-        
-
-    
-
-    <section class="blognews ourproject pad-50">
-    <div class="container">
-        <div class="section-heading">
-            <span class="badge">Work</span><br>
-            <span class="title">Our Work</span>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="filters filter-button-group">
-            <ul>
-                <h4>
-                    <li class="active " data-filter="*">All</li>
-                    <li data-filter=".webdesign">Web Design</li>
-                    <li data-filter=".webdev">Web Development</li>
-                    <li data-filter=".brand">Brand Identity</li>
-                </h4>
-            </ul>
+    </section>
+
+    <section class="about page-section skill pad-50" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="about-right w-100">
+                    <div class="section-heading">
+                        <span class="title">Skills</span>
+                    </div>
+                    <div class="skill-card" data-aos="flip-up" data-aos-duration="500" >
+                        <div class="card-content">
+                            <h4 class="brown-text light">Html</h4>
+                            <div class="skill-card-row text-center">
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/html5.png" class="">HTML5</div>
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/jekyll.png" class="">Jekyll</div>
+                                <div class="skill-card-item"><img alt="" src="https://activemode.io/themes/aio-multi/assets/images/stack/nunjucks.png" class="">Nunjucks</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-up" data-aos-duration="1100">
+                        <div class="card-content">
+                            <h4 class="brown-text light">CSS</h4>
+                            <div class="skill-card-row text-center">
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/css3.png" class="">CSS3</div>
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/sass.png" class="">SASS</div>
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/bootstrap.png" class="">Bootstrap</div>
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/foundation.png" class="">Foundation</div>
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/materialize.png" class="">Materialize</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-up" data-aos-duration="1700">
+                        <div class="card-content">
+                            <h4 class="brown-text light">Javascript</h4>
+                            <div class="skill-card-row text-center">
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/javascript.png" class="">Javascript</div>
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/jquery.png" class="">Jquery</div>
+                                <div class="skill-card-item"><img alt="" src="https://www.taniarascia.com/static/cf23526f451784ff137f161b8fe18d5a/4148e/vue.png" class="">Vue</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-up" data-aos-duration="2300">
+                        <div class="card-content">
+                            <h4 class="brown-text light">Build Tools</h4>
+                            <div class="skill-card-row text-center">
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/webpack.png" class="">Webpack</div>
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/gulp.png" class="">Gulp</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-card" data-aos="flip-up" data-aos-duration="2900">
+                        <div class="card-content">
+                            <h4 class="brown-text light">Other</h4>
+                            <div class="skill-card-row text-center">
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/github.png" class="">Github</div>
+                                <div class="skill-card-item"><img alt="" src="https://andrewborstein.com/static/img/photoshop.png" class="">Photoshop</div>
+                                <div class="skill-card-item"><img alt="" src="https://digitalworkshopcenter.com/wp-content/uploads/2014/08/Adobe-Illustrator-Classes-at-Digital-Workshop-Center-1-150x150.png" class="">Illustrator</div>
+                                <div class="skill-card-item"><img alt="" src="https://static1.squarespace.com/static/5c7300cdc46f6d147ea52314/t/5c7326604785d303f1cc6dd1/1561676783416/?format=1000w" class="">Adobe xd</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="courses-offer blognews ourproject page-section pad-50" id="works">
+    <div class="containers">
+        <div class="section-heading">
+            <span class="title">My Work</span>
         </div>
 
         <div class="content grid">
-
-            <div class="single-content webdesign webdev grid-item">
-                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da3c9fb7411cdef9be095e/1507480179577/Portfolio%2BTemplate%2BAMD-13.png">
-            </div>
-
-            <div class="single-content brand webdesign grid-item">
-                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c491b8a045325bf1beba/1534182696851/Screen+Shot+2018-08-13+at+1.48.35+PM.png">
-            </div>
-
-            <div class="single-content brand grid-item">
-                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da52ba29f187b71a84628e/1507480323521/Portfolio+Template+AMD-06.jpg">
-            </div>
-
-            <div class="single-content webdesign grid-item">
-                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71a4cd0ebbe87857c695de/1534181858373/Portfolio+Template+AMD-11.png">
-            </div>
-
-            <div class="single-content webdesign grid-item">
-                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da3b4bf7e0ab21edcb9aa1/1507480179530/Portfolio+Template+AMD-06.png">
-            </div>
-
-            <div class="single-content webdesign brand grid-item">
-                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59da46128419c28f51bc28b1/1534175868854/Portfolio+Template+AMD-04.png">
-            </div>
-
-            <div class="single-content webdesign grid-item">
-                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/5b71c1e221c67c0feefe2a10/1534182546003/Portfolio+Template+AMD-03.png">
-            </div>
-
-            <div class="single-content webdesign webdev grid-item">
-                <img class="p2" src="https://static1.squarespace.com/static/56c5196f4c2f85dda57c1d66/59d944df8a02c7abc311e81d/59d9455546c3c4655adade94/1507480179518/Portfolio+Template+AMD-01.png">
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-    
-        
-    
-    
-        
-            
-                
-                
-            
-            
-            
-        
-    
-
-
-    
-        
-            
-        
-    
-    
-    
-
-    
-
-    <section class="clientsay  pad-50" style="background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/sayagata-400px.png');">
-    <div class="container">
-        <div class="section-heading">
-            <span class="badge">TESTMONIALS</span><br>
-            <span class="title">What Our Client Say</span>
-        </div>
-        <div class="clientsay-card">
-            <div class="owl-carousel clientsay-owl">
-                <div class="profile">
-
-                    <div class="comment-section">
-                        <i class="fas fa-quote-left"></i>
-
-                        <span class="comment">
-                            to provide an environment for the disciplined and intergrated development of students and
-                        staff to give their best to the society.
-                        </span>
-                        <figure>
-                            <img src="http://itechway.net/wp-content/uploads/2017/09/geek-boys-whatsapp-dp-1.jpg"
-                                 alt="">
-                        </figure>
-                        <div class="name">susant shrestha</div>
-                        <div class="subname">Web Developer</div>
-
-                    </div>
+            <div class="single-content   grid-item">
+                <img class="" alt="" src="./images/sajhadeal.png">
+                <div class="grid-overlay"></div>
+                <div class="grid-text">
+                    <div class="bold">Sajha Deal</div>
+                    <span class="highlight">Single vendor ecommerce</span>
                 </div>
+                <a href="https//www.sajhadeal.com" class="grid-button" >Visit</a>
             </div>
 
-        </div>
-    </div>
-
-
-</section>
-
-
-
-    
-
-    <section class="blognews pad-50">
-    <div class="container">
-        <div class="section-heading">
-            <span class="badge">NEWS</span><br>
-            <span class="title">Blog News</span>
-        </div>
-        <div class="blogs">
-            <div class="band">
-                <div class="item-1">
-                    <a href="#" class="card">
-                        <div class="thumb"
-                             style="background-image: url(http://www.freedigitalphotos.net/images/previews/eduction-icon-design-100179549.jpg);">
-
-                        </div>
-                        <article>
-
-                            
-                                
-                            
-                            <h4 class="uk-card-title">
-                                Effective researching method
-                            </h4>
-                            <span class="card-content">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
-                            et fugiat itaque nesciunt quas sint velit veritatis!
-                        </span>
-                            <button class="uk-button">Read article</button>
-                        </article>
-                    </a>
-                </div><div class="item-1">
-                    <a href="#" class="card">
-                        <div class="thumb"
-                             style="background-image: url(http://www.freedigitalphotos.net/images/previews/eduction-icon-design-100179549.jpg);">
-
-                        </div>
-                        <article>
-
-                            
-                                
-                            
-                            <h4 class="uk-card-title">
-                                Effective researching method
-                            </h4>
-                            <span class="card-content">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
-                            et fugiat itaque nesciunt quas sint velit veritatis!
-                        </span>
-                            <button class="uk-button">Read article</button>
-                        </article>
-                    </a>
-                </div><div class="item-1">
-                    <a href="#" class="card">
-                        <div class="thumb"
-                             style="background-image: url(http://www.freedigitalphotos.net/images/previews/eduction-icon-design-100179549.jpg);">
-
-                        </div>
-                        <article>
-
-                            
-                                
-                            
-                            <h4 class="uk-card-title">
-                                Effective researching method
-                            </h4>
-                            <span class="card-content">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolore ducimus eius
-                            et fugiat itaque nesciunt quas sint velit veritatis!
-                        </span>
-                            <button class="uk-button">Read article</button>
-                        </article>
-                    </a>
+            <div class="single-content  grid-item">
+                <img class="" alt="" src="./images/nayapatrika.png">
+            <div class="grid-overlay"></div>
+                <div class="grid-text">
+                    <div class="bold">NayaPatrika Daily </div>
+                    <span class="highlight">Nepals leading news website</span>
                 </div>
+                <a href="https://nayapatrikadaily.com/" class="grid-button" >Visit</a>
             </div>
+
+            <div class="single-content  grid-item">
+                <img class="" alt="" src="./images/rpm.png">
+            <div class="grid-overlay"></div>
+                <div class="grid-text">
+                    <div class="bold">Response Plus Medical</div>
+                    <span class="highlight">Medical insurance company</span>
+                </div>
+                <a href="http://rpm.ae/" class="grid-button" >Visit</a>
+            </div>
+
+            <div class="single-content  grid-item">
+                <img class="" alt="" src="./images/pairavi.png">
+            <div class="grid-overlay"></div>
+                <div class="grid-text">
+                    <div class="bold">Pairavi</div>
+                    <span class="highlight">Online bookstore</span>
+                </div>
+                <a href="http://pairavi.com/" class="grid-button" >Visit</a>
+            </div>
+            <div class="single-content  grid-item">
+                <img class="" alt="" src="./images/dreamsnepal.png">
+            <div class="grid-overlay"></div>
+                <div class="grid-text">
+                    <div class="bold">Dreamnepal</div>
+                    <span class="highlight">Nepal travelling site</span>
+                </div>
+                <a href="http://dreamnepal.com.np/" class="grid-button" >Visit</a>
+            </div>
+
+            <div class="single-content   grid-item">
+                <img class="" alt="" src="./images/sann.png">
+             <div class="grid-overlay"></div>
+                <div class="grid-text">
+                    <div class="bold">Sann</div>
+                    <span class="highlight">College website</span>
+                </div>
+                <a href="http://sann.edu.np/" class="grid-button" >Visit</a>
+            </div>
+
+            <div class="single-content  grid-item">
+                <img class="" alt="" src="./images/pnpkhabar.png">
+            <div class="grid-overlay"></div>
+                <div class="grid-text">
+                    <div class="bold">Pnp Khabar</div>
+                    <span class="highlight">Online news portal</span>
+                </div>
+                <a href="http://www.pnpkhabar.com/" class="grid-button" >Visit</a>
+            </div>
+
+            <div class="single-content  grid-item">
+                <img class="" alt="" src="./images/tenjineco.png">
+            <div class="grid-overlay"></div>
+                <div class="grid-text">
+                    <div class="bold">TenjinEco Treks</div>
+                    <span class="highlight">Trekking website</span>
+                </div>
+                <a href="http://tenjinecotreks.com/" class="grid-button" >Visit</a>
+            </div>
+
+            <div class="single-content  grid-item is-empty"></div>
+            <div class="single-content  grid-item is-empty"></div>
+            <div class="single-content  grid-item is-empty"></div>
+
         </div>
+
     </div>
 
 </section>
-    
-    <section class="contactus">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3533.430392401309!2d85.34972601506134!3d27.673089682806285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sKoteshwor-35+narephant+Kathmandu%2C+Nepal+44600!5e0!3m2!1sne!2snp!4v1528451030783" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
 
+
+
+    <section class="contactus page-section" id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1497346271976!2d85.32658201490155!3d27.712662782789746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190ea12f729d%3A0xf0835e5b0dbb4402!2sNaxal+Bhagawati+Temple!5e0!3m2!1sen!2snp!4v1563347580222!5m2!1sen!2snp" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </iframe>
-    <div class="contactus-form">
-        <form>
-            <fieldset class="uk-fieldset">
+    
+        
+            
 
-                <span class="title font-white">Contact us</span>
+                
 
-                <div class="uk-margin">
-                    <input class="uk-input" type="text" placeholder="Your name here">
-                </div>
-                <div class="uk-margin">
-                    <input class="uk-input" type="email" placeholder="Email">
-                </div>
-                <div class="uk-margin">
-                    <textarea class="uk-textarea" rows="5" placeholder="Write your message here"></textarea>
-                </div>
-                <button type="submit" class="uk-button ">send message</button>
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                
 
-            </fieldset>
-        </form>
+            
+        
 
-    </div>
+    
 </section>
-    <div class="footer-top courses-offer">
+    <div class="footer-bottom">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 ">
-                <!-- About -->
-                <div class="single-widget useful-links">
-                    <h2>About us</h2>
-                    <p class="about-us-para" >
-                        Eduon company is the one of the finest
-                        and trustable company that helps to promote you and
-                        your company. We stand with you or your company for the long period of time.
-                    </p>
+        <div class="row justify-content-center">
 
+            <div class="bottom-head">
+                <!-- Copyright -->
+                <div class="copyright">
+                    <p>© Copyright 2019. All Rights Reserved</p>
                 </div>
-                <!--/ End About -->
-            </div>
-            <div class="col-lg-4 col-md-4">
-                <!-- Useful Links -->
-                <div class="single-widget useful-links">
-                    <h2>Useful Links</h2>
-                    <ul class="liststyle--none">
-                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Home</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;About Us</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Courses</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Events</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Blogs</a></li>
-                        <li><a href="#"><i class="fa fa-angle-right"></i>&nbsp;Contact</a></li>
-                    </ul>
-                </div>
-                <!--/ End Useful Links -->
+                <!--/ End Copyright -->
             </div>
 
-            <div class="col-lg-4 col-md-4 col-12">
-                <!-- Newsletter -->
-                <div class="single-widget about">
-                    <h2>Connect</h2>
-                    
-                        
-                            
-                        
-                    
-                    <ul class="list liststyle--none">
-                        <li><i class="fas fa-phone"></i>&nbsp;&nbsp;Tel: 977 01 101010</li>
-                        <li><i class="fas fa-envelope"></i>&nbsp;&nbsp;mail@gmail.com</li>
-                        <li><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Kathmandu,Nepal</li>
-                    </ul>
-                    <!-- Social -->
-                    <ul class="social">
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                    </ul>
-                    <!-- End Social -->
-                </div>
-                <!--/ End Newsletter -->
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="footer-bottom">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="bottom-head">
-                    <div class="row">
-                        <div class="col-12">
-
-                            <!-- Copyright -->
-                            <div class="copyright">
-                                <p>© Copyright 2018 <a href="#">Eduon</a>. All Rights Reserved</p>
-                            </div>
-                            <!--/ End Copyright -->
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
 
 </div>
-
-
 
 
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    
-
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<!-- UIkit JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/et-line@1.0.1/lte-ie7.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <!-- scroll reveal js-->
 <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-<script src="https://cdn.rawgit.com/digistate/resouces/master/multipleFilterMasonry.js"></script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
 
 <script src="js/app.min.js"></script>
 </body>
