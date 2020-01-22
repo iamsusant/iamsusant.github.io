@@ -361,16 +361,10 @@
 
 <script src="js/app.min.js"></script>
     <script>
-      FB.ui({
-  method: 'share_open_graph',
-  action_type: 'og.likes',
-  action_properties: JSON.stringify({
-    object:'https://iamsusant.github.io',
-  })
-}, function(response){
-  // Debug response (optional)
-  console.log(response);
-});
+    FB.ui({
+  method: 'share',
+  href: 'https://developers.facebook.com/docs/'
+}, function(response){});
     </script>
 </body>
 </html>
