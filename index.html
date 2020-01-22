@@ -14,7 +14,17 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/app.min.css">
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e13669e0a05300012771f29&product=inline-share-buttons&cms=sop' async='async'></script>
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '523759258239267',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v5.0'
+    });
+  };
+</script>
+<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
 </head>
 <body >
 
@@ -350,5 +360,11 @@
 
 
 <script src="js/app.min.js"></script>
+    <script>
+        FB.ui({
+  method: 'share',
+  href: 'https://developers.facebook.com/docs/'
+}, function(response){});
+    </script>
 </body>
 </html>
